@@ -7,7 +7,8 @@
     "dogc": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,14 @@
     "lru-cache": "^7.14.0",
     "ora": "^5.0.0",
     "semver": "^7.3.8",
+    "strip-ansi": "^7.0.1",
     "validate-npm-package-name": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "eslint": "^8.24.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
   }
 }

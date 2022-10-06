@@ -5,8 +5,6 @@ const chalk = require("chalk");
 
 const figlet = require("figlet");
 
-const ora = require("ora");
-
 const package = require("../package.json");
 
 const askProjectInfo = require("../lib/ask.js");
