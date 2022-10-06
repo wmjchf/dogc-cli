@@ -17,3 +17,7 @@ npm link
 ```
 dogc -v
 ```
+
+# 脚手架命令
+
+- dogc create
