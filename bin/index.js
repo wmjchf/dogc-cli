@@ -23,6 +23,7 @@ figlet("Dogc Hello!", function (err, data) {
 program.version(version).option("-v,--version");
 
 program.command("create").action(() => {
+  // 创建操作的逻辑，这里会以问题询问的方式获取项目信息，见第二步的方法
   askProjectInfo().then((answers) => {
     create(answers);
   });

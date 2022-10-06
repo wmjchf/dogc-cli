@@ -16,13 +16,14 @@
     "chalk": "^4.0.0",
     "child_process": "^1.0.2",
     "commander": "^9.4.1",
+    "execa": "^5.1.1",
     "figlet": "^1.5.2",
     "fs-extra": "^10.1.0",
     "inquirer": "^8.2.4",
     "lru-cache": "^7.14.0",
     "ora": "^5.0.0",
     "semver": "^7.3.8",
-    "strip-ansi": "^7.0.1",
+    "strip-ansi": "^6.0.0",
     "validate-npm-package-name": "^4.0.0"
   },
   "devDependencies": {
