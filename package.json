@@ -1,0 +1,26 @@
+{
+  "name": "@dogc/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "dogc": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "child_process": "^1.0.2",
+    "commander": "^9.4.1",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "lru-cache": "^7.14.0",
+    "ora": "^5.0.0",
+    "semver": "^7.3.8",
+    "validate-npm-package-name": "^4.0.0"
+  }
+}
