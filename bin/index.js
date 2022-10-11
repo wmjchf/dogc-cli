@@ -12,10 +12,10 @@ const { version } = package;
 console.log(figlet.textSync("Dogc Hello!"));
 
 program.version(version).option("-v,--version");
-
+// 生成组件库模板
 program
-  .command("create <app-name>")
-  .description("create a new project")
+  .command("create <component-libs-name>")
+  .description("create a react component template")
   .option("-d,--description <description>", "add a detail descript")
   .action((appName, options) => {
     // 创建操作的逻辑，这里会以问题询问的方式获取项目信息，见第二步的方法
